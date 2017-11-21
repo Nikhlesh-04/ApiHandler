@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3121AB91FC3F2C3009FA204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121AB81FC3F2C3009FA204 /* AppDelegate.swift */; };
+		A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121ABA1FC3F2C3009FA204 /* ViewController.swift */; };
+		A3121ABE1FC3F2C3009FA204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3121ABC1FC3F2C3009FA204 /* Main.storyboard */; };
+		A3121AC01FC3F2C3009FA204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3121ABF1FC3F2C3009FA204 /* Assets.xcassets */; };
+		A3121AC31FC3F2C3009FA204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */; };
+		A3121ACE1FC3F2C3009FA204 /* PinboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121ACD1FC3F2C3009FA204 /* PinboardTests.swift */; };
+		A3121AD91FC3F2C3009FA204 /* PinboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3121ACA1FC3F2C3009FA204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3121AAD1FC3F2C3009FA204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3121AB41FC3F2C3009FA204;
+			remoteInfo = Pinboard;
+		};
+		A3121AD51FC3F2C3009FA204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3121AAD1FC3F2C3009FA204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3121AB41FC3F2C3009FA204;
+			remoteInfo = Pinboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3121AB51FC3F2C3009FA204 /* Pinboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3121AB81FC3F2C3009FA204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3121ABA1FC3F2C3009FA204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3121ABD1FC3F2C3009FA204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3121ABF1FC3F2C3009FA204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3121AC21FC3F2C3009FA204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3121AC41FC3F2C3009FA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3121AC91FC3F2C3009FA204 /* PinboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3121ACD1FC3F2C3009FA204 /* PinboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinboardTests.swift; sourceTree = "<group>"; };
+		A3121ACF1FC3F2C3009FA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3121AD41FC3F2C3009FA204 /* PinboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinboardUITests.swift; sourceTree = "<group>"; };
+		A3121ADA1FC3F2C3009FA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3121AB21FC3F2C3009FA204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AC61FC3F2C3009FA204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AD11FC3F2C3009FA204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3121AAC1FC3F2C3009FA204 = {
+			isa = PBXGroup;
+			children = (
+				A3121AB71FC3F2C3009FA204 /* Pinboard */,
+				A3121ACC1FC3F2C3009FA204 /* PinboardTests */,
+				A3121AD71FC3F2C3009FA204 /* PinboardUITests */,
+				A3121AB61FC3F2C3009FA204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3121AB61FC3F2C3009FA204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3121AB51FC3F2C3009FA204 /* Pinboard.app */,
+				A3121AC91FC3F2C3009FA204 /* PinboardTests.xctest */,
+				A3121AD41FC3F2C3009FA204 /* PinboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3121AB71FC3F2C3009FA204 /* Pinboard */ = {
+			isa = PBXGroup;
+			children = (
+				A3121AB81FC3F2C3009FA204 /* AppDelegate.swift */,
+				A3121ABA1FC3F2C3009FA204 /* ViewController.swift */,
+				A3121ABC1FC3F2C3009FA204 /* Main.storyboard */,
+				A3121ABF1FC3F2C3009FA204 /* Assets.xcassets */,
+				A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */,
+				A3121AC41FC3F2C3009FA204 /* Info.plist */,
+			);
+			path = Pinboard;
+			sourceTree = "<group>";
+		};
+		A3121ACC1FC3F2C3009FA204 /* PinboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3121ACD1FC3F2C3009FA204 /* PinboardTests.swift */,
+				A3121ACF1FC3F2C3009FA204 /* Info.plist */,
+			);
+			path = PinboardTests;
+			sourceTree = "<group>";
+		};
+		A3121AD71FC3F2C3009FA204 /* PinboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */,
+				A3121ADA1FC3F2C3009FA204 /* Info.plist */,
+			);
+			path = PinboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3121AB41FC3F2C3009FA204 /* Pinboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3121ADD1FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "Pinboard" */;
+			buildPhases = (
+				A3121AB11FC3F2C3009FA204 /* Sources */,
+				A3121AB21FC3F2C3009FA204 /* Frameworks */,
+				A3121AB31FC3F2C3009FA204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinboard;
+			productName = Pinboard;
+			productReference = A3121AB51FC3F2C3009FA204 /* Pinboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3121AC81FC3F2C3009FA204 /* PinboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3121AE01FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardTests" */;
+			buildPhases = (
+				A3121AC51FC3F2C3009FA204 /* Sources */,
+				A3121AC61FC3F2C3009FA204 /* Frameworks */,
+				A3121AC71FC3F2C3009FA204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3121ACB1FC3F2C3009FA204 /* PBXTargetDependency */,
+			);
+			name = PinboardTests;
+			productName = PinboardTests;
+			productReference = A3121AC91FC3F2C3009FA204 /* PinboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3121AD31FC3F2C3009FA204 /* PinboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3121AE31FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardUITests" */;
+			buildPhases = (
+				A3121AD01FC3F2C3009FA204 /* Sources */,
+				A3121AD11FC3F2C3009FA204 /* Frameworks */,
+				A3121AD21FC3F2C3009FA204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3121AD61FC3F2C3009FA204 /* PBXTargetDependency */,
+			);
+			name = PinboardUITests;
+			productName = PinboardUITests;
+			productReference = A3121AD41FC3F2C3009FA204 /* PinboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3121AAD1FC3F2C3009FA204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nikhlesh bagdiya";
+				TargetAttributes = {
+					A3121AB41FC3F2C3009FA204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 294Y9EE4CG;
+						ProvisioningStyle = Automatic;
+					};
+					A3121AC81FC3F2C3009FA204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 294Y9EE4CG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3121AB41FC3F2C3009FA204;
+					};
+					A3121AD31FC3F2C3009FA204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 294Y9EE4CG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3121AB41FC3F2C3009FA204;
+					};
+				};
+			};
+			buildConfigurationList = A3121AB01FC3F2C3009FA204 /* Build configuration list for PBXProject "Pinboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3121AAC1FC3F2C3009FA204;
+			productRefGroup = A3121AB61FC3F2C3009FA204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3121AB41FC3F2C3009FA204 /* Pinboard */,
+				A3121AC81FC3F2C3009FA204 /* PinboardTests */,
+				A3121AD31FC3F2C3009FA204 /* PinboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3121AB31FC3F2C3009FA204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3121AC31FC3F2C3009FA204 /* LaunchScreen.storyboard in Resources */,
+				A3121AC01FC3F2C3009FA204 /* Assets.xcassets in Resources */,
+				A3121ABE1FC3F2C3009FA204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AC71FC3F2C3009FA204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AD21FC3F2C3009FA204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3121AB11FC3F2C3009FA204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */,
+				A3121AB91FC3F2C3009FA204 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AC51FC3F2C3009FA204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3121ACE1FC3F2C3009FA204 /* PinboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3121AD01FC3F2C3009FA204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3121AD91FC3F2C3009FA204 /* PinboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3121ACB1FC3F2C3009FA204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3121AB41FC3F2C3009FA204 /* Pinboard */;
+			targetProxy = A3121ACA1FC3F2C3009FA204 /* PBXContainerItemProxy */;
+		};
+		A3121AD61FC3F2C3009FA204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3121AB41FC3F2C3009FA204 /* Pinboard */;
+			targetProxy = A3121AD51FC3F2C3009FA204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3121ABC1FC3F2C3009FA204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3121ABD1FC3F2C3009FA204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3121AC21FC3F2C3009FA204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3121ADB1FC3F2C3009FA204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3121ADC1FC3F2C3009FA204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3121ADE1FC3F2C3009FA204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = Pinboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..Pinboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3121ADF1FC3F2C3009FA204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = Pinboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..Pinboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3121AE11FC3F2C3009FA204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = PinboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..PinboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinboard.app/Pinboard";
+			};
+			name = Debug;
+		};
+		A3121AE21FC3F2C3009FA204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = PinboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..PinboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinboard.app/Pinboard";
+			};
+			name = Release;
+		};
+		A3121AE41FC3F2C3009FA204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = PinboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..PinboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pinboard;
+			};
+			name = Debug;
+		};
+		A3121AE51FC3F2C3009FA204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 294Y9EE4CG;
+				INFOPLIST_FILE = PinboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..PinboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pinboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3121AB01FC3F2C3009FA204 /* Build configuration list for PBXProject "Pinboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3121ADB1FC3F2C3009FA204 /* Debug */,
+				A3121ADC1FC3F2C3009FA204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3121ADD1FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "Pinboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3121ADE1FC3F2C3009FA204 /* Debug */,
+				A3121ADF1FC3F2C3009FA204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3121AE01FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3121AE11FC3F2C3009FA204 /* Debug */,
+				A3121AE21FC3F2C3009FA204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3121AE31FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3121AE41FC3F2C3009FA204 /* Debug */,
+				A3121AE51FC3F2C3009FA204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3121AAD1FC3F2C3009FA204 /* Project object */;
+}
