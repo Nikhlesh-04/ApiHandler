@@ -14,6 +14,24 @@
 		A3121AC31FC3F2C3009FA204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */; };
 		A3121ACE1FC3F2C3009FA204 /* PinboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121ACD1FC3F2C3009FA204 /* PinboardTests.swift */; };
 		A3121AD91FC3F2C3009FA204 /* PinboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */; };
+		A3DB6BFC1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */; };
+		A3DB6BFF1FC5357C00E3C0BC /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */; };
+		A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */; };
+		A3DB6C051FC54A7000E3C0BC /* OtherDataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C041FC54A7000E3C0BC /* OtherDataViewerViewController.swift */; };
+		A3DB6C081FC5692000E3C0BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C071FC5692000E3C0BC /* Constants.swift */; };
+		A3DB6C0A1FC5696500E3C0BC /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C091FC5696500E3C0BC /* UIApplication.swift */; };
+		A3DB6C0C1FC5734500E3C0BC /* APIMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C0B1FC5734500E3C0BC /* APIMethod.swift */; };
+		A3DB6C0F1FC596A700E3C0BC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C0E1FC596A700E3C0BC /* Global.swift */; };
+		A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C101FC5983600E3C0BC /* CustomLog.swift */; };
+		A3DB6C131FC5988F00E3C0BC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C121FC5988F00E3C0BC /* Date.swift */; };
+		A3DB6C151FC5998200E3C0BC /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C141FC5998200E3C0BC /* UIDevice.swift */; };
+		A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */; };
+		A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */; };
+		A3DE9A561FC4673C003268E5 /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4E1FC4673C003268E5 /* SpinWheelControlDataSource.swift */; };
+		A3DE9A571FC4673C003268E5 /* SpinWheelControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4F1FC4673C003268E5 /* SpinWheelControlDelegate.swift */; };
+		A3DE9A581FC4673C003268E5 /* SpinWheelWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A501FC4673C003268E5 /* SpinWheelWedge.swift */; };
+		A3DE9A591FC4673C003268E5 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */; };
+		A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,25 @@
 		A3121AD41FC3F2C3009FA204 /* PinboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinboardUITests.swift; sourceTree = "<group>"; };
 		A3121ADA1FC3F2C3009FA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeImageView.swift; sourceTree = "<group>"; };
+		A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDataViewerViewController.swift; sourceTree = "<group>"; };
+		A3DB6C041FC54A7000E3C0BC /* OtherDataViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherDataViewerViewController.swift; sourceTree = "<group>"; };
+		A3DB6C071FC5692000E3C0BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3DB6C091FC5696500E3C0BC /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		A3DB6C0B1FC5734500E3C0BC /* APIMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIMethod.swift; sourceTree = "<group>"; };
+		A3DB6C0E1FC596A700E3C0BC /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		A3DB6C101FC5983600E3C0BC /* CustomLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLog.swift; sourceTree = "<group>"; };
+		A3DB6C121FC5988F00E3C0BC /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A3DB6C141FC5998200E3C0BC /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Degrees+MathMethods.swift"; sourceTree = "<group>"; };
+		A3DE9A4C1FC4673C003268E5 /* SpinWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinWheelControl.h; sourceTree = "<group>"; };
+		A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelControl.swift; sourceTree = "<group>"; };
+		A3DE9A4E1FC4673C003268E5 /* SpinWheelControlDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelControlDataSource.swift; sourceTree = "<group>"; };
+		A3DE9A4F1FC4673C003268E5 /* SpinWheelControlDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelControlDelegate.swift; sourceTree = "<group>"; };
+		A3DE9A501FC4673C003268E5 /* SpinWheelWedge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedge.swift; sourceTree = "<group>"; };
+		A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeLabel.swift; sourceTree = "<group>"; };
+		A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +134,17 @@
 		A3121AB71FC3F2C3009FA204 /* Pinboard */ = {
 			isa = PBXGroup;
 			children = (
+				A3DB6C0D1FC5760F00E3C0BC /* Models */,
+				A3DB6C061FC5691600E3C0BC /* GlobalClasses */,
+				A3DB6C001FC541A200E3C0BC /* Extensions */,
 				A3121AB81FC3F2C3009FA204 /* AppDelegate.swift */,
-				A3121ABA1FC3F2C3009FA204 /* ViewController.swift */,
+				A3DB6C011FC541B300E3C0BC /* UIViewControllers */,
 				A3121ABC1FC3F2C3009FA204 /* Main.storyboard */,
 				A3121ABF1FC3F2C3009FA204 /* Assets.xcassets */,
 				A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */,
 				A3121AC41FC3F2C3009FA204 /* Info.plist */,
+				A3DB6BFD1FC49D8000E3C0BC /* ApiHandler */,
+				A3DE99AD1FC465A5003268E5 /* Libraries */,
 			);
 			path = Pinboard;
 			sourceTree = "<group>";
@@ -123,6 +165,77 @@
 				A3121ADA1FC3F2C3009FA204 /* Info.plist */,
 			);
 			path = PinboardUITests;
+			sourceTree = "<group>";
+		};
+		A3DB6BFD1FC49D8000E3C0BC /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ApiHandler;
+			sourceTree = "<group>";
+		};
+		A3DB6C001FC541A200E3C0BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB6C141FC5998200E3C0BC /* UIDevice.swift */,
+				A3DB6C091FC5696500E3C0BC /* UIApplication.swift */,
+				A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */,
+				A3DB6C121FC5988F00E3C0BC /* Date.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A3DB6C011FC541B300E3C0BC /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3121ABA1FC3F2C3009FA204 /* ViewController.swift */,
+				A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */,
+				A3DB6C041FC54A7000E3C0BC /* OtherDataViewerViewController.swift */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		A3DB6C061FC5691600E3C0BC /* GlobalClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A3DB6C0B1FC5734500E3C0BC /* APIMethod.swift */,
+				A3DB6C071FC5692000E3C0BC /* Constants.swift */,
+				A3DB6C101FC5983600E3C0BC /* CustomLog.swift */,
+				A3DB6C0E1FC596A700E3C0BC /* Global.swift */,
+			);
+			name = GlobalClasses;
+			sourceTree = "<group>";
+		};
+		A3DB6C0D1FC5760F00E3C0BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A3DE99AD1FC465A5003268E5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A3DE9A491FC4673C003268E5 /* SpinWheelControl */,
+			);
+			name = Libraries;
+			path = "ThirdParty Librarys";
+			sourceTree = "<group>";
+		};
+		A3DE9A491FC4673C003268E5 /* SpinWheelControl */ = {
+			isa = PBXGroup;
+			children = (
+				A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */,
+				A3DE9A4C1FC4673C003268E5 /* SpinWheelControl.h */,
+				A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */,
+				A3DE9A4E1FC4673C003268E5 /* SpinWheelControlDataSource.swift */,
+				A3DE9A4F1FC4673C003268E5 /* SpinWheelControlDelegate.swift */,
+				A3DE9A501FC4673C003268E5 /* SpinWheelWedge.swift */,
+				A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */,
+				A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */,
+				A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */,
+			);
+			path = SpinWheelControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +375,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */,
+				A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */,
 				A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */,
+				A3DB6C0A1FC5696500E3C0BC /* UIApplication.swift in Sources */,
+				A3DE9A581FC4673C003268E5 /* SpinWheelWedge.swift in Sources */,
+				A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */,
+				A3DB6C0C1FC5734500E3C0BC /* APIMethod.swift in Sources */,
+				A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */,
+				A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */,
 				A3121AB91FC3F2C3009FA204 /* AppDelegate.swift in Sources */,
+				A3DE9A571FC4673C003268E5 /* SpinWheelControlDelegate.swift in Sources */,
+				A3DE9A561FC4673C003268E5 /* SpinWheelControlDataSource.swift in Sources */,
+				A3DE9A591FC4673C003268E5 /* SpinWheelWedgeLabel.swift in Sources */,
+				A3DB6BFF1FC5357C00E3C0BC /* UIView+Animation.swift in Sources */,
+				A3DB6C081FC5692000E3C0BC /* Constants.swift in Sources */,
+				A3DB6C151FC5998200E3C0BC /* UIDevice.swift in Sources */,
+				A3DB6C051FC54A7000E3C0BC /* OtherDataViewerViewController.swift in Sources */,
+				A3DB6C131FC5988F00E3C0BC /* Date.swift in Sources */,
+				A3DB6BFC1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift in Sources */,
+				A3DB6C0F1FC596A700E3C0BC /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 294Y9EE4CG;
 				INFOPLIST_FILE = Pinboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -427,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 294Y9EE4CG;
 				INFOPLIST_FILE = Pinboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -514,6 +647,7 @@
 				A3121ADF1FC3F2C3009FA204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3121AE01FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +656,7 @@
 				A3121AE21FC3F2C3009FA204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3121AE31FC3F2C3009FA204 /* Build configuration list for PBXNativeTarget "PinboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +665,7 @@
 				A3121AE51FC3F2C3009FA204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
