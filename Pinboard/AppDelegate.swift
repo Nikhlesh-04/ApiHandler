@@ -11,11 +11,16 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    //  MARK: - Variable Declaration.
     var window: UIWindow?
 
-
+    //  MARK: - UIApplicationDelegate Methods.
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Setup PKHUD Property For Globaly in a app.
+        Global.setUpPKProgressHUDProperty()
+        
         return true
     }
 

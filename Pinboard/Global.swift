@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 import MapKit
+import PKHUD
 
 /// Just use //MARK: , //TODO: or //FIXME: instead of #pragma
 
@@ -50,9 +51,12 @@ open class Global : NSObject {
     }
     
     /*************************************************************/
-    //  MARK:- Setup HUD for entire App
+    //  MARK:- Setup HUD Property for entire App
     /*************************************************************/
-    
+    public class func setUpPKProgressHUDProperty() {
+        PKHUD.sharedHUD.dimsBackground = true
+        PKHUD.sharedHUD.userInteractionOnUnderlyingViewsEnabled = false
+    }
     
     
     /*************************************************************/
