@@ -27,6 +27,7 @@
 		A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C101FC5983600E3C0BC /* CustomLog.swift */; };
 		A3DB6C131FC5988F00E3C0BC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C121FC5988F00E3C0BC /* Date.swift */; };
 		A3DB6C151FC5998200E3C0BC /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C141FC5998200E3C0BC /* UIDevice.swift */; };
+		A3DB6C171FC5A19C00E3C0BC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C161FC5A19C00E3C0BC /* FileManager.swift */; };
 		A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */; };
 		A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */; };
 		A3DE9A561FC4673C003268E5 /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4E1FC4673C003268E5 /* SpinWheelControlDataSource.swift */; };
@@ -85,6 +86,7 @@
 		A3DB6C101FC5983600E3C0BC /* CustomLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLog.swift; sourceTree = "<group>"; };
 		A3DB6C121FC5988F00E3C0BC /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		A3DB6C141FC5998200E3C0BC /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		A3DB6C161FC5A19C00E3C0BC /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Degrees+MathMethods.swift"; sourceTree = "<group>"; };
 		A3DE9A4C1FC4673C003268E5 /* SpinWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinWheelControl.h; sourceTree = "<group>"; };
 		A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelControl.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				A3DB6C091FC5696500E3C0BC /* UIApplication.swift */,
 				A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */,
 				A3DB6C121FC5988F00E3C0BC /* Date.swift */,
+				A3DB6C161FC5A19C00E3C0BC /* FileManager.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */,
 				A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */,
 				A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */,
+				A3DB6C171FC5A19C00E3C0BC /* FileManager.swift in Sources */,
 				A3DB6C0A1FC5696500E3C0BC /* UIApplication.swift in Sources */,
 				A3DE9A581FC4673C003268E5 /* SpinWheelWedge.swift in Sources */,
 				A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */,
