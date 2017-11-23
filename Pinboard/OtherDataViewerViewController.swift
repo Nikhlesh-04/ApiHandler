@@ -58,9 +58,8 @@ class OtherDataViewerViewController: UIViewController {
             self.dismissBarButton.isEnabled = true
         }
         
-        
         //  TODO:- update when api handler is complete.
-        guard let url = URL (string: API.PDF.rawValue) else {
+        guard let url = URL (string: API.pdf.rawValue) else {
             return
         }
         
@@ -86,3 +85,4 @@ class OtherDataViewerViewController: UIViewController {
     */
 
 }
+

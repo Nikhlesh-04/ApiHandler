@@ -28,6 +28,8 @@
 		A3DB6C131FC5988F00E3C0BC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C121FC5988F00E3C0BC /* Date.swift */; };
 		A3DB6C151FC5998200E3C0BC /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C141FC5998200E3C0BC /* UIDevice.swift */; };
 		A3DB6C171FC5A19C00E3C0BC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C161FC5A19C00E3C0BC /* FileManager.swift */; };
+		A3DB6C191FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C181FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift */; };
+		A3DB6C1B1FC5D0D300E3C0BC /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C1A1FC5D0D300E3C0BC /* ApiHandler.swift */; };
 		A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */; };
 		A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */; };
 		A3DE9A561FC4673C003268E5 /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A4E1FC4673C003268E5 /* SpinWheelControlDataSource.swift */; };
@@ -35,6 +37,7 @@
 		A3DE9A581FC4673C003268E5 /* SpinWheelWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A501FC4673C003268E5 /* SpinWheelWedge.swift */; };
 		A3DE9A591FC4673C003268E5 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */; };
 		A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */; };
+		A3EC9F9A1FC6F37E0005AF91 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9F991FC6F37E0005AF91 /* XMLReader.m */; };
 		C71DE9B519EFA49AA9745DB5 /* Pods_PinboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76CD6E6ACCFBE7DD2B1BD8 /* Pods_PinboardUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +90,8 @@
 		A3DB6C121FC5988F00E3C0BC /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		A3DB6C141FC5998200E3C0BC /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		A3DB6C161FC5A19C00E3C0BC /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		A3DB6C181FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiHandler+UIImageView.swift"; sourceTree = "<group>"; };
+		A3DB6C1A1FC5D0D300E3C0BC /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
 		A3DE9A4A1FC4673C003268E5 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Degrees+MathMethods.swift"; sourceTree = "<group>"; };
 		A3DE9A4C1FC4673C003268E5 /* SpinWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinWheelControl.h; sourceTree = "<group>"; };
 		A3DE9A4D1FC4673C003268E5 /* SpinWheelControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelControl.swift; sourceTree = "<group>"; };
@@ -95,6 +100,9 @@
 		A3DE9A501FC4673C003268E5 /* SpinWheelWedge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedge.swift; sourceTree = "<group>"; };
 		A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeLabel.swift; sourceTree = "<group>"; };
 		A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeShape.swift; sourceTree = "<group>"; };
+		A3EC9F971FC6F37D0005AF91 /* Pinboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3EC9F981FC6F37E0005AF91 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		A3EC9F991FC6F37E0005AF91 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		A76D5B7A4DCA7FB09D627FB7 /* Pods-Pinboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pinboard/Pods-Pinboard.debug.xcconfig"; sourceTree = "<group>"; };
 		E65FC560C73747EF6EC5DF81 /* Pods-PinboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinboardTests/Pods-PinboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		F9C33B8BB5EB8993946D0B87 /* Pods_Pinboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +210,11 @@
 		A3DB6BFD1FC49D8000E3C0BC /* ApiHandler */ = {
 			isa = PBXGroup;
 			children = (
+				A3DB6C1A1FC5D0D300E3C0BC /* ApiHandler.swift */,
+				A3DB6C181FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift */,
+				A3EC9F981FC6F37E0005AF91 /* XMLReader.h */,
+				A3EC9F991FC6F37E0005AF91 /* XMLReader.m */,
+				A3EC9F971FC6F37D0005AF91 /* Pinboard-Bridging-Header.h */,
 			);
 			name = ApiHandler;
 			sourceTree = "<group>";
@@ -359,6 +372,7 @@
 					A3121AB41FC3F2C3009FA204 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 294Y9EE4CG;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A3121AC81FC3F2C3009FA204 = {
@@ -577,6 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DB6C1B1FC5D0D300E3C0BC /* ApiHandler.swift in Sources */,
 				A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */,
 				A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */,
 				A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */,
@@ -585,6 +600,8 @@
 				A3DE9A581FC4673C003268E5 /* SpinWheelWedge.swift in Sources */,
 				A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */,
 				A3DB6C0C1FC5734500E3C0BC /* APIMethod.swift in Sources */,
+				A3DB6C191FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift in Sources */,
+				A3EC9F9A1FC6F37E0005AF91 /* XMLReader.m in Sources */,
 				A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */,
 				A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */,
 				A3121AB91FC3F2C3009FA204 /* AppDelegate.swift in Sources */,
@@ -748,6 +765,7 @@
 			baseConfigurationReference = A76D5B7A4DCA7FB09D627FB7 /* Pods-Pinboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 294Y9EE4CG;
 				INFOPLIST_FILE = Pinboard/Info.plist;
@@ -755,6 +773,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..Pinboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pinboard/Pinboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -764,6 +784,7 @@
 			baseConfigurationReference = 9DC6AEC133F9F3331BBD16E4 /* Pods-Pinboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 294Y9EE4CG;
 				INFOPLIST_FILE = Pinboard/Info.plist;
@@ -771,6 +792,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Airin-Tech..Pinboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pinboard/Pinboard-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         confiureWheel()
         
         clickmeButton.setupViewWithPulsateEffect()
+        
+        apiForPinboardData()
     }
     
     //  MARK: - Configure Wheel Method.
@@ -80,5 +82,22 @@ extension ViewController: SpinWheelControlDelegate {
     //Triggered at various intervals. The variable radians describes how many radians the spin wheel control has moved since the last time this method was called.
     func spinWheelDidRotateByRadians(radians: CGFloat) {
         
+    }
+}
+
+//  MARK:- API Calling Mehods.
+extension ViewController {
+    
+    public func apiForPinboardData() {
+        Global.showLoadingSpinner(sender: self.view)
+        ApiHandler.request(url: API.xml, methode: .get, parameters: nil, header: nil, completionHandler: { (response, data, mimeType) in
+            if let jsonresonse = response as? [String:Any] {
+                print(jsonresonse)
+            }
+            Global.dismissLoadingSpinner()
+        }) { (error) in
+            print(error.localizedDescription)
+            Global.dismissLoadingSpinner()
+        }
     }
 }

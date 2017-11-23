@@ -58,6 +58,21 @@ open class Global : NSObject {
         PKHUD.sharedHUD.userInteractionOnUnderlyingViewsEnabled = false
     }
     
+    /*************************************************************/
+    //MARK:- show/hide Global ProgressHUD
+    /*************************************************************/
+    
+    @discardableResult open class func showLoadingSpinner(sender: UIView? = UIApplication.topViewController()?.view) {
+        DispatchQueue.main.async {
+            HUD.show(.progress)
+        }
+    }
+    
+    open class func dismissLoadingSpinner() {
+        DispatchQueue.main.async {
+            PKHUD.sharedHUD.hide()
+        }
+    }
     
     /*************************************************************/
     //  MARK:- NSURL From String

@@ -26,6 +26,7 @@ public struct Constants {
     static let kAPIVersion          = "1.0"
     static let kAuthAPIKey          = ""
     static let kDeviceType          = "ios"
+    static let kImageCache           = NSCache<AnyObject, AnyObject>()
     
     
     static let kHeaders = ["authKey": kAuthAPIKey,

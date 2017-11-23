@@ -14,6 +14,15 @@ class JsonDataViewerViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     //  MARK: - Variable Declarations.
+    lazy var refreshControl: UIRefreshControl = {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action:
+            #selector(self.handleRefresh(_:)),
+                                 for: UIControlEvents.valueChanged)
+        refreshControl.tintColor = UIColor.black
+        
+        return refreshControl
+    }()
     
     
     //  MARK: - UIViewController Override Methods.
@@ -33,6 +42,21 @@ class JsonDataViewerViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        tableView.addSubview(self.refreshControl)
+    }
+    
+    //  MARK: - Refresh controller handler Methode.
+    func handleRefresh(_ refreshControl: UIRefreshControl) {
+        
+//        let newHotel = Hotels(name: "Montage Laguna Beach", place:
+//            "California south")
+//        hotels.append(newHotel)
+//        
+//        hotels.sort() { $0.name < $0.place }
+        
+        self.tableView.reloadData()
+        refreshControl.endRefreshing()
     }
 
     // MARK: - Memory Warning handle Methode.
