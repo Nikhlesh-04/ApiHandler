@@ -10,7 +10,7 @@ import UIKit
 
 extension UIImageView {
     
-    @discardableResult fileprivate func loadImageWithUrl(url: URL ,with placeHolderImage:UIImage) -> URLSessionDataTask {
+    @discardableResult public func loadImageWithUrl(url: URL ,with placeHolderImage:UIImage) -> URLSessionDataTask {
         
         let imageURL = url
         
@@ -46,7 +46,7 @@ extension UIImageView {
         return tasks
     }
     
-    @discardableResult fileprivate func loadImageWithUrl(url: URL) -> URLSessionDataTask {
+    @discardableResult public func loadImageWithUrl(url: URL) -> URLSessionDataTask {
         
         let imageURL = url
         

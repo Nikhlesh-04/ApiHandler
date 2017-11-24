@@ -149,4 +149,8 @@ extension String {
     public func trim() -> String {
         return self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
+    
+    public func substring(_ from: Int) -> String {
+        return self.substring(from: self.characters.index(self.startIndex, offsetBy: from))
+    }
 }

@@ -15,19 +15,19 @@ class ViewController: UIViewController {
 
     //  MARK: - Variable Declarations.
     var spinWheelControl: SpinWheelControl!
+    var jsonContentArray = [MainData]()
     
     //  MARK: - UIViewController Override Methods.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        apiForPinboardData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        confiureWheel()
         
         clickmeButton.setupViewWithPulsateEffect()
-        
-        apiForPinboardData()
     }
     
     //  MARK: - Configure Wheel Method.
@@ -53,8 +53,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+        if let jsonDataViewController = segue.destination as? JsonDataViewerViewController {
+            jsonDataViewController.jsonContentArray = self.jsonContentArray 
+        }
+     }
 }
 
 //  MARK:- SpinWheelControlDataSource Mehods.
@@ -62,12 +71,16 @@ extension ViewController: SpinWheelControlDataSource {
     
     //Specify the number of wedges in the spin wheel by returning a positive value that is greater than 1
     func numberOfWedgesInSpinWheel(spinWheel: SpinWheelControl) -> UInt {
-        return 10
+        return UInt(jsonContentArray.count)
     }
     
     //Returns the SpinWheelWedge at the specified index of the SpinWheelControl
     func wedgeForSliceAtIndex(index: UInt) -> SpinWheelWedge {
+        let indexs = Int(index)
         let wedge = SpinWheelWedge()
+        if let url = URL(string: jsonContentArray[indexs].urls.thumb)  {
+            wedge.imageView.loadImageWithUrl(url: url)
+        }
         return wedge
     }
 }
@@ -88,16 +101,20 @@ extension ViewController: SpinWheelControlDelegate {
 //  MARK:- API Calling Mehods.
 extension ViewController {
     
-    public func apiForPinboardData() {
-        Global.showLoadingSpinner(sender: self.view)
-        ApiHandler.request(url: API.xml, methode: .get, parameters: nil, header: nil, completionHandler: { (response, data, mimeType) in
-            if let jsonresonse = response as? [String:Any] {
-                print(jsonresonse)
+    func apiForPinboardData() {
+        APIClient.apiCallForPinboardData() { [weak self](response, data, mimeType) in
+            if let jsonResonse = response as? [[String:Any]] {
+                print(jsonResonse)
+                var i = 0
+                for item in jsonResonse {
+                    self?.jsonContentArray.append(MainData(item))
+                    i += 1
+                    if i == 10 {
+                        break
+                    }
+                }
+                self?.confiureWheel()
             }
-            Global.dismissLoadingSpinner()
-        }) { (error) in
-            print(error.localizedDescription)
-            Global.dismissLoadingSpinner()
         }
     }
 }

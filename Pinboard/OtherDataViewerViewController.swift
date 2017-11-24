@@ -32,14 +32,17 @@ class OtherDataViewerViewController: UIViewController {
     //  MARK: - setup Initial View Method.
     private func setupInitilView() {
         dismissBarButton.isEnabled = false
+        
+        apiForUpdateView()
     }
     
     //  MARK:- Buttons Actions Methods.
     @IBAction func didTapDownloadPdfButton(_ sender: Any) {
-        setupWebView()
+        self.apiForDownloadPdf()
     }
     
     @IBAction func didTapDownloadZipButton(_ sender: Any) {
+        self.apiForDownloadZip()
     }
     
     @IBAction func didTapdismissWebViewBarButton() {
@@ -51,18 +54,12 @@ class OtherDataViewerViewController: UIViewController {
     }
     
     //  MARK: - setup WebView Method.
-    func setupWebView() {
+    func setupWebView(url:URL) {
         webView.isHidden = false
         webView.setupViewWithZoomInEffect()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
             self.dismissBarButton.isEnabled = true
         }
-        
-        //  TODO:- update when api handler is complete.
-        guard let url = URL (string: API.pdf.rawValue) else {
-            return
-        }
-        
         let requestObj = URLRequest(url: url)
         webView.loadRequest(requestObj)
     }
@@ -84,5 +81,53 @@ class OtherDataViewerViewController: UIViewController {
     }
     */
 
+}
+
+//  MARK:- API Calling Mehods.
+extension OtherDataViewerViewController {
+    
+    func apiForUpdateView() {
+        APIClient.apiCallForXmlData() { [weak self](response, data, mimeType) in
+            if mimeType == ResponseType.text_XML.rawValue || mimeType == ResponseType.application_XML.rawValue {
+                if (data != nil) {
+                    if let xmlString = String(data: data!, encoding: String.Encoding.utf8) {
+                        self?.textView.text = xmlString
+                        print("xml as String: " + xmlString)
+                        if let xmlDictionary = try? XMLReader.dictionary(forXMLData: data!) {
+                            print(xmlDictionary)
+                            let xmlModel = XmlDictionary(xmlDictionary)
+                            self?.textView.text = (self?.textView.text ?? "") + "\n\n\nFrom: \(xmlModel.from)\nTo: \(xmlModel.to)\nMessage: \(xmlModel.message)\n"
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    func apiForDownloadPdf() {
+        APIClient.apiCallForPDFData() { [weak self](response, data, mimeType) in
+            if mimeType == ResponseType.adobe_PDF.rawValue {
+                if (data != nil) {
+                    if let filePath = FileManager.default.saveFileResourceToTemporaryDirectory(fileName: "ar_ios", fileExtension: "pdf", fileData: data!) {
+                        self?.setupWebView(url: filePath)
+                    }
+                }
+            }
+        }
+    }
+    
+    func apiForDownloadZip() {
+        APIClient.apiCallForZipData() { [weak self](response, data, mimeType) in
+            if mimeType == ResponseType.zip.rawValue || mimeType == ResponseType.zip7.rawValue {
+                if (data != nil) {
+                    if let filePath = FileManager.default.saveFileResourceToTemporaryDirectory(fileName: "zip_ios", fileExtension: "zip", fileData: data!) {
+                        self?.downloadZipButton.isHidden = true
+                        self?.zipFilelocationLabel.isHidden = false
+                        self?.zipFilelocationLabel.text = (self?.zipFilelocationLabel.text ?? "") + "\(filePath)"
+                    }
+                }
+            }
+        }
+    }
 }
 

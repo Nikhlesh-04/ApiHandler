@@ -14,6 +14,7 @@ class JsonDataViewerViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     //  MARK: - Variable Declarations.
+    var jsonContentArray = [MainData]()
     lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action:
@@ -48,15 +49,7 @@ class JsonDataViewerViewController: UIViewController {
     
     //  MARK: - Refresh controller handler Methode.
     func handleRefresh(_ refreshControl: UIRefreshControl) {
-        
-//        let newHotel = Hotels(name: "Montage Laguna Beach", place:
-//            "California south")
-//        hotels.append(newHotel)
-//        
-//        hotels.sort() { $0.name < $0.place }
-        
-        self.tableView.reloadData()
-        refreshControl.endRefreshing()
+        apiForTableViewData()
     }
 
     // MARK: - Memory Warning handle Methode.
@@ -82,7 +75,7 @@ class JsonDataViewerViewController: UIViewController {
 extension JsonDataViewerViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return jsonContentArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -98,10 +91,20 @@ extension JsonDataViewerViewController: UITableViewDelegate, UITableViewDataSour
         
         cell?.selectionStyle = .none
         
+        let data = jsonContentArray[indexPath.row]
+        
         // At this point, we definitely have a cell -- either dequeued or newly created,
         // so let's force unwrap the optional into a UITableViewCell
-        cell?.textLabel?.text = "John Deo"
-        cell?.detailTextLabel?.text = "Nature"
+        cell?.textLabel?.textColor =  #colorLiteral(red: 0.1653639972, green: 0.5497630239, blue: 0.9940976501, alpha: 1)
+        cell?.detailTextLabel?.textColor = #colorLiteral(red: 0.1653639972, green: 0.5497630239, blue: 0.9940976501, alpha: 1)
+        cell?.textLabel?.text = data.user.name
+        cell?.detailTextLabel?.text = data.user.id
+        
+        cell?.backgroundColor = data.color
+        
+        if let url = URL.init(string: data.user.profileImage) {
+            cell?.imageView?.loadImageWithUrl(url: url)
+        }
         
         return cell ?? UITableViewCell()
     }
@@ -115,3 +118,30 @@ extension JsonDataViewerViewController: UITableViewDelegate, UITableViewDataSour
         
     }
 }
+
+//  MARK:- API Calling Mehods.
+extension JsonDataViewerViewController {
+    
+    func apiForTableViewData() {
+        APIClient.apiCallForPinboardData() { [weak self](response, data, mimeType) in
+            if let jsonResonse = response as? [[String:Any]] {
+                print(jsonResonse)
+                let previousCount = self?.jsonContentArray.count
+                for index in 0..<jsonResonse.count where index >= (self?.jsonContentArray.count ?? 0) {
+                    let item = jsonResonse[index]
+                    self?.jsonContentArray.append(MainData(item))
+                    print(index)
+                    if index == 10 {
+                        break
+                    }
+                }
+                self?.tableView.reloadData()
+                self?.refreshControl.endRefreshing()
+                if previousCount == self?.jsonContentArray.count {
+                    self?.refreshControl.removeFromSuperview()
+                }
+            }
+        }
+    }
+}
+

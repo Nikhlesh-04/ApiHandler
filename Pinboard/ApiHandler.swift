@@ -90,7 +90,7 @@ class ApiHandler: NSObject {
         request.httpMethod = methode.rawValue
         
         //  cache data reloading
-        request.cachePolicy = .useProtocolCachePolicy
+        request.cachePolicy = .returnCacheDataElseLoad //reloadRevalidatingCacheData
         
         // insert json data to the request (Parameters)
         if (parameters != nil) {
@@ -107,6 +107,9 @@ class ApiHandler: NSObject {
                 request.setValue( value, forHTTPHeaderField: key)
             }
         }
+        
+        //let cachedResponse = URLCache.shared.cachedResponse(for: request)
+        //let data = cachedResponse?.data
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {

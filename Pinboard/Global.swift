@@ -62,7 +62,7 @@ open class Global : NSObject {
     //MARK:- show/hide Global ProgressHUD
     /*************************************************************/
     
-    @discardableResult open class func showLoadingSpinner(sender: UIView? = UIApplication.topViewController()?.view) {
+    @discardableResult open class func showLoadingSpinner() {
         DispatchQueue.main.async {
             HUD.show(.progress)
         }

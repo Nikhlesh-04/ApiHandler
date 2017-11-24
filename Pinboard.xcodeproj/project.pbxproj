@@ -16,6 +16,8 @@
 		A3121AC31FC3F2C3009FA204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3121AC11FC3F2C3009FA204 /* LaunchScreen.storyboard */; };
 		A3121ACE1FC3F2C3009FA204 /* PinboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121ACD1FC3F2C3009FA204 /* PinboardTests.swift */; };
 		A3121AD91FC3F2C3009FA204 /* PinboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */; };
+		A3CF71231FC7D4AA00B03833 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF71221FC7D4AA00B03833 /* APIClient.swift */; };
+		A3CF71251FC7E2AA00B03833 /* XmlDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF71241FC7E2AA00B03833 /* XmlDictionary.swift */; };
 		A3DB6BFC1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */; };
 		A3DB6BFF1FC5357C00E3C0BC /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */; };
 		A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */; };
@@ -38,6 +40,12 @@
 		A3DE9A591FC4673C003268E5 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A511FC4673C003268E5 /* SpinWheelWedgeLabel.swift */; };
 		A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE9A521FC4673C003268E5 /* SpinWheelWedgeShape.swift */; };
 		A3EC9F9A1FC6F37E0005AF91 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9F991FC6F37E0005AF91 /* XMLReader.m */; };
+		A3EC9F9C1FC705190005AF91 /* ImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9F9B1FC705190005AF91 /* ImageUrl.swift */; };
+		A3EC9F9E1FC706AE0005AF91 /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9F9D1FC706AE0005AF91 /* MainData.swift */; };
+		A3EC9FA01FC708590005AF91 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9F9F1FC708590005AF91 /* UIColor.swift */; };
+		A3EC9FA21FC70A110005AF91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9FA11FC70A110005AF91 /* User.swift */; };
+		A3EC9FA41FC70A2D0005AF91 /* ImageCategore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9FA31FC70A2D0005AF91 /* ImageCategore.swift */; };
+		A3EC9FA61FC70A410005AF91 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC9FA51FC70A410005AF91 /* Links.swift */; };
 		C71DE9B519EFA49AA9745DB5 /* Pods_PinboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E76CD6E6ACCFBE7DD2B1BD8 /* Pods_PinboardUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +86,8 @@
 		A3121AD41FC3F2C3009FA204 /* PinboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinboardUITests.swift; sourceTree = "<group>"; };
 		A3121ADA1FC3F2C3009FA204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CF71221FC7D4AA00B03833 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A3CF71241FC7E2AA00B03833 /* XmlDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlDictionary.swift; sourceTree = "<group>"; };
 		A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeImageView.swift; sourceTree = "<group>"; };
 		A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDataViewerViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +113,12 @@
 		A3EC9F971FC6F37D0005AF91 /* Pinboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinboard-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3EC9F981FC6F37E0005AF91 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		A3EC9F991FC6F37E0005AF91 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		A3EC9F9B1FC705190005AF91 /* ImageUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUrl.swift; sourceTree = "<group>"; };
+		A3EC9F9D1FC706AE0005AF91 /* MainData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		A3EC9F9F1FC708590005AF91 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A3EC9FA11FC70A110005AF91 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3EC9FA31FC70A2D0005AF91 /* ImageCategore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCategore.swift; sourceTree = "<group>"; };
+		A3EC9FA51FC70A410005AF91 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		A76D5B7A4DCA7FB09D627FB7 /* Pods-Pinboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pinboard/Pods-Pinboard.debug.xcconfig"; sourceTree = "<group>"; };
 		E65FC560C73747EF6EC5DF81 /* Pods-PinboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinboardTests/Pods-PinboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		F9C33B8BB5EB8993946D0B87 /* Pods_Pinboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +238,7 @@
 		A3DB6C001FC541A200E3C0BC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A3EC9F9F1FC708590005AF91 /* UIColor.swift */,
 				A3DB6C141FC5998200E3C0BC /* UIDevice.swift */,
 				A3DB6C091FC5696500E3C0BC /* UIApplication.swift */,
 				A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */,
@@ -245,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				A3DB6C0B1FC5734500E3C0BC /* APIMethod.swift */,
+				A3CF71221FC7D4AA00B03833 /* APIClient.swift */,
 				A3DB6C071FC5692000E3C0BC /* Constants.swift */,
 				A3DB6C101FC5983600E3C0BC /* CustomLog.swift */,
 				A3DB6C0E1FC596A700E3C0BC /* Global.swift */,
@@ -255,6 +273,12 @@
 		A3DB6C0D1FC5760F00E3C0BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A3EC9F9D1FC706AE0005AF91 /* MainData.swift */,
+				A3EC9FA11FC70A110005AF91 /* User.swift */,
+				A3EC9FA31FC70A2D0005AF91 /* ImageCategore.swift */,
+				A3EC9F9B1FC705190005AF91 /* ImageUrl.swift */,
+				A3EC9FA51FC70A410005AF91 /* Links.swift */,
+				A3CF71241FC7E2AA00B03833 /* XmlDictionary.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -593,6 +617,7 @@
 			files = (
 				A3DB6C1B1FC5D0D300E3C0BC /* ApiHandler.swift in Sources */,
 				A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */,
+				A3EC9F9C1FC705190005AF91 /* ImageUrl.swift in Sources */,
 				A3DE9A5A1FC4673C003268E5 /* SpinWheelWedgeShape.swift in Sources */,
 				A3121ABB1FC3F2C3009FA204 /* ViewController.swift in Sources */,
 				A3DB6C171FC5A19C00E3C0BC /* FileManager.swift in Sources */,
@@ -601,16 +626,23 @@
 				A3DB6C111FC5983600E3C0BC /* CustomLog.swift in Sources */,
 				A3DB6C0C1FC5734500E3C0BC /* APIMethod.swift in Sources */,
 				A3DB6C191FC5CF6500E3C0BC /* ApiHandler+UIImageView.swift in Sources */,
+				A3CF71231FC7D4AA00B03833 /* APIClient.swift in Sources */,
 				A3EC9F9A1FC6F37E0005AF91 /* XMLReader.m in Sources */,
 				A3DE9A551FC4673C003268E5 /* SpinWheelControl.swift in Sources */,
 				A3DE9A531FC4673C003268E5 /* Degrees+MathMethods.swift in Sources */,
 				A3121AB91FC3F2C3009FA204 /* AppDelegate.swift in Sources */,
+				A3EC9FA41FC70A2D0005AF91 /* ImageCategore.swift in Sources */,
 				A3DE9A571FC4673C003268E5 /* SpinWheelControlDelegate.swift in Sources */,
 				A3DE9A561FC4673C003268E5 /* SpinWheelControlDataSource.swift in Sources */,
 				A3DE9A591FC4673C003268E5 /* SpinWheelWedgeLabel.swift in Sources */,
 				A3DB6BFF1FC5357C00E3C0BC /* UIView+Animation.swift in Sources */,
+				A3CF71251FC7E2AA00B03833 /* XmlDictionary.swift in Sources */,
 				A3DB6C081FC5692000E3C0BC /* Constants.swift in Sources */,
+				A3EC9FA21FC70A110005AF91 /* User.swift in Sources */,
+				A3EC9F9E1FC706AE0005AF91 /* MainData.swift in Sources */,
 				A3DB6C151FC5998200E3C0BC /* UIDevice.swift in Sources */,
+				A3EC9FA01FC708590005AF91 /* UIColor.swift in Sources */,
+				A3EC9FA61FC70A410005AF91 /* Links.swift in Sources */,
 				A3DB6C051FC54A7000E3C0BC /* OtherDataViewerViewController.swift in Sources */,
 				A3DB6C131FC5988F00E3C0BC /* Date.swift in Sources */,
 				A3DB6BFC1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift in Sources */,
