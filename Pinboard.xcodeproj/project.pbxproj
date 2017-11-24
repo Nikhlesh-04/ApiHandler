@@ -18,6 +18,8 @@
 		A3121AD91FC3F2C3009FA204 /* PinboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121AD81FC3F2C3009FA204 /* PinboardUITests.swift */; };
 		A3CF71231FC7D4AA00B03833 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF71221FC7D4AA00B03833 /* APIClient.swift */; };
 		A3CF71251FC7E2AA00B03833 /* XmlDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF71241FC7E2AA00B03833 /* XmlDictionary.swift */; };
+		A3CF71261FC8455800B03833 /* OtherDataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C041FC54A7000E3C0BC /* OtherDataViewerViewController.swift */; };
+		A3CF71271FC8456900B03833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3121ABA1FC3F2C3009FA204 /* ViewController.swift */; };
 		A3DB6BFC1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFB1FC47D4800E3C0BC /* SpinWheelWedgeImageView.swift */; };
 		A3DB6BFF1FC5357C00E3C0BC /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6BFE1FC5357C00E3C0BC /* UIView+Animation.swift */; };
 		A3DB6C031FC549F200E3C0BC /* JsonDataViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB6C021FC549F200E3C0BC /* JsonDataViewerViewController.swift */; };
@@ -660,7 +662,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CF71271FC8456900B03833 /* ViewController.swift in Sources */,
 				A3121ACE1FC3F2C3009FA204 /* PinboardTests.swift in Sources */,
+				A3CF71261FC8455800B03833 /* OtherDataViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
