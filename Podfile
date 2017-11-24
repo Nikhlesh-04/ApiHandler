@@ -11,11 +11,13 @@ pod 'PKHUD', '~> 4.0'
   target 'PinboardTests' do
     inherit! :search_paths
     # Pods for testing
+pod 'PKHUD', '~> 4.0'
   end
 
   target 'PinboardUITests' do
     inherit! :search_paths
     # Pods for testing
+pod 'PKHUD', '~> 4.0'
   end
 
 end
