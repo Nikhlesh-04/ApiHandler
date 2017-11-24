@@ -77,9 +77,9 @@ public enum MediaType: String {
 }
 */
 
-class ApiHandler: NSObject {
+public class ApiHandler: NSObject {
 
-    @discardableResult class func request(url: API, methode:HTTPMethod ,parameters: [String: AnyObject]? , header: [String: String]?, completionHandler:@escaping (_ response: AnyObject?, _ data:Data?, _ mimeType:String?) -> Void, failed:@escaping(_ error: Error) -> Void) -> URLSessionTask  {
+    @discardableResult public class func request(url: API, methode:HTTPMethod ,parameters: [String: AnyObject]? , header: [String: String]?, completionHandler:@escaping (_ response: AnyObject?, _ data:Data?, _ mimeType:String?) -> Void, failed:@escaping(_ error: Error) -> Void) -> URLSessionTask  {
         
         // create post request
         guard  let url = URL(string: url.rawValue) else {
